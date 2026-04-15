@@ -1,0 +1,19 @@
+# Personal bookmark data — never commit
+twitter-bookmarks-exporter/bookmarks.json
+twitter-bookmarks-exporter/bookmarks.json.bak
+twitter-bookmarks-exporter/output/
+
+# Claude local settings (keep commands/, exclude settings)
+.claude/settings.json
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
