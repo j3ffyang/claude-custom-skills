@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(rm /home/jeff/Downloads/git/negtivSpaz/openclaw-custom-skills/twitter-bookmarks-exporter/.claude/commands/export-twitter-bookmarks.md)",
+      "Bash(rmdir /home/jeff/Downloads/git/negtivSpaz/openclaw-custom-skills/twitter-bookmarks-exporter/.claude/commands)"
+    ]
+  }
+}
