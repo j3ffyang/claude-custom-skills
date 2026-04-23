@@ -43,7 +43,7 @@ This repository hosts production-ready **Claude Code skills** and **slash comman
 
 | Name | Type | Trigger | Description |
 |---|---|---|---|
-| [`export-twitter-bookmarks`](./.claude/commands/export-twitter-bookmarks.md) | Command | `/export-twitter-bookmarks` | Export X/Twitter bookmarks into individual Markdown files; handles multi-page JSON, full text for regular/note/article tweets, t.co URL expansion, quoted tweets, media links, and engagement stats |
+| [`export-twitter-bookmarks`](./twitter-bookmarks-exporter/) | Skill | `/export-twitter-bookmarks` | Export all X/Twitter bookmarks into individual Markdown files with metadata; handles multi-page JSON, full text extraction for regular/note/article tweets, t.co URL expansion, quoted tweets, media links, and engagement stats |
 | [`perplexity-downloader`](./perplexity-downloader/) | Skill | `/perplexity-downloader` | Download and export Perplexity.ai conversation threads as individual Markdown files; supports single thread, bulk URL lists, or full history export with automatic index generation |
 
 ---
