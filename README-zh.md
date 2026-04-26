@@ -5,7 +5,7 @@
 > 专为 [Claude Code](https://claude.ai/code) 设计的自定义斜线命令与自动化技能集合——涵盖生产力工具、数据导出、内容工作流等多种场景。
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Claude Skills](https://img.shields.io/badge/claude%20skills-2-purple)](#命令与技能)
+[![Claude Skills](https://img.shields.io/badge/claude%20skills-3-purple)](#命令与技能)
 
 ---
 
@@ -47,6 +47,7 @@
 |---|---|---|---|
 | [`export-twitter-bookmarks`](./twitter-bookmarks-exporter/) | 技能 | `/export-twitter-bookmarks` | 将所有 X/Twitter 书签导出为独立的 Markdown 文件并附加元数据；支持多页 JSON、普通推文/长文推文/X 文章的完整文本提取、t.co 短链还原、引用推文、媒体链接以及互动数据统计 |
 | [`perplexity-downloader`](./perplexity-downloader/) | 技能 | `/perplexity-downloader` | 将 Perplexity.ai 对话线程下载并导出为独立的 Markdown 文件；支持单条线程、批量 URL 列表或完整历史记录导出，并自动生成索引文件 |
+| [`readme-i18n`](./readme-i18n/) | 技能 | `/readme-i18n` | 将 `README.md` 同步翻译为简体中文版（`README-zh.md`），以英文为主要内容来源；自动在两个文件顶部添加互跳链接，并在翻译前校正语法及拼写错误 |
 
 ---
 

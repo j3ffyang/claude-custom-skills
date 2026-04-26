@@ -1,11 +1,11 @@
 # claude-custom-skills
 
-[中文版](README.zh-CN.md)
+[简体中文](README-zh.md)
 
 > A curated collection of custom slash commands and automation skills for [Claude Code](https://claude.ai/code) — covering productivity, data export, content workflows, and more.
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-[![Claude Skills](https://img.shields.io/badge/claude%20skills-2-purple)](#commands--skills)
+[![Claude Skills](https://img.shields.io/badge/claude%20skills-3-purple)](#commands--skills)
 
 ---
 
@@ -47,6 +47,7 @@ This repository hosts production-ready **Claude Code skills** and **slash comman
 |---|---|---|---|
 | [`export-twitter-bookmarks`](./twitter-bookmarks-exporter/) | Skill | `/export-twitter-bookmarks` | Export all X/Twitter bookmarks into individual Markdown files with metadata; handles multi-page JSON, full text extraction for regular/note/article tweets, t.co URL expansion, quoted tweets, media links, and engagement stats |
 | [`perplexity-downloader`](./perplexity-downloader/) | Skill | `/perplexity-downloader` | Download and export Perplexity.ai conversation threads as individual Markdown files; supports single thread, bulk URL lists, or full history export with automatic index generation |
+| [`readme-i18n`](./readme-i18n/) | Skill | `/readme-i18n` | Synchronize `README.md` to Simplified Chinese (`README-zh.md`) while keeping English as the primary source; adds navigation links between both files and corrects grammar or spelling errors before translating |
 
 ---
 
