@@ -1,5 +1,7 @@
 # claude-custom-skills
 
+[中文版](README.zh-CN.md)
+
 > A curated collection of custom slash commands and automation skills for [Claude Code](https://claude.ai/code) — covering productivity, data export, content workflows, and more.
 
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
